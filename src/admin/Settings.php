@@ -43,6 +43,7 @@ class Settings {
                   'label'               => esc_html__( 'Display vote icons', 'dimofinf-comments-vote' ),
                   'type'                => 'select',
                   'sanitize_callback'   => 'esc_attr',
+                  'default'             => 'both',
                   'options'     => array(
                       'likes'      =>  esc_html__( 'Likes Only', 'dimofinf-comments-vote' ),
                       'dislikes'   =>  esc_html__( 'Dislikes Only', 'dimofinf-comments-vote' ),
@@ -66,7 +67,7 @@ class Settings {
                   'label'               => esc_html__( 'Vote restriction', 'dimofinf-comments-vote' ),
                   'type'                => 'select',
                   'sanitize_callback'   => 'esc_attr',
-                  'default'             => 'both',
+                  'default'             => 'ip',
                   'options'     => array(
                       'logged'      =>  esc_html__( 'Logged users only', 'dimofinf-comments-vote' ),
                       'ip'          =>  esc_html__( 'IP Restriction', 'dimofinf-comments-vote' ),
