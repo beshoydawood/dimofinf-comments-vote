@@ -1,0 +1,26 @@
+{
+  "name" : "dimofinf/comments-vote",
+  "description" : "",
+  "type" : "wordpress-plugin",
+  "keywords" : [ "" ],
+  "license" : "GPL-2.0+",
+  "authors" : [
+    {
+      "name" : "Beshoy Dawood",
+      "email" : "echobeshoydawood@gmail.com",
+      "role" : "Developer"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "DimofinfCommentsVote\\" : "src",
+      "DimofinfCommentsVote\\utils\\" : "src/utils",
+      "DimofinfCommentsVote\\front\\" : "src/front",
+      "DimofinfCommentsVote\\admin\\" : "src/admin"
+    }
+  },
+  "require" : {
+    "php" : ">=5.3.0"
+  },
+  "homepage" : "https://www.dimofinf.net"
+}

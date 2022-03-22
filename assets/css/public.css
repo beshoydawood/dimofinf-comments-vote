@@ -1,0 +1,19 @@
+.dcv-vote {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    align-items: center;
+}
+.dcv-vote .dcv-btn {
+    margin-right: 10px;
+}
+.dcv-vote svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 2px;
+}
+.dcv-vote a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
